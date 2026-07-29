@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -12,8 +12,7 @@
     <AssemblyName>FerramAerospaceResearch</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile>
-    </TargetFrameworkProfile>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
     <LangVersion>10</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -60,11 +59,11 @@
   <ItemGroup>
     <Reference Include="Assembly-CSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\References\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(KSP_DIR_BUILD)\$(KSP_DATA_DIRNAME)\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="KSPAssets, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\References\KSPAssets.dll</HintPath>
+      <HintPath>$(KSP_DIR_BUILD)\$(KSP_DATA_DIRNAME)\Managed\KSPAssets.dll</HintPath>
     </Reference>
     <Reference Include="KSPCommunityFixes">
       <HintPath>$(KSP_DIR_BUILD)GameData\KSPCommunityFixes\Plugins\KSPCommunityFixes.dll</HintPath>
@@ -72,7 +71,7 @@
     </Reference>
     <Reference Include="ModularFlightIntegrator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\References\ModularFlightIntegrator.dll</HintPath>
+      <HintPath>$(KSP_DIR_BUILD)\GameData\ModularFlightIntegrator\ModularFlightIntegrator.dll</HintPath>
     </Reference>
     <Reference Include="Scale_Redist, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -80,32 +79,32 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="Unity.Mathematics">
-      <HintPath>..\References\Unity.Mathematics.dll</HintPath>
+      <HintPath>C:\Zaidimai\KSP 1.12\GameData\000_KSPBurst\Plugins\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\References\UnityEngine.dll</HintPath>
+      <HintPath>$(KSP_DIR_BUILD)\$(KSP_DATA_DIRNAME)\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>..\References\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>$(KSP_DIR_BUILD)\$(KSP_DATA_DIRNAME)\Managed\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>..\References\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>$(KSP_DIR_BUILD)\$(KSP_DATA_DIRNAME)\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\References\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(KSP_DIR_BUILD)\$(KSP_DATA_DIRNAME)\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>..\References\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>$(KSP_DIR_BUILD)\$(KSP_DATA_DIRNAME)\Managed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>..\References\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>$(KSP_DIR_BUILD)\$(KSP_DATA_DIRNAME)\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>..\References\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>$(KSP_DIR_BUILD)\$(KSP_DATA_DIRNAME)\Managed\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>..\References\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>$(KSP_DIR_BUILD)\$(KSP_DATA_DIRNAME)\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
