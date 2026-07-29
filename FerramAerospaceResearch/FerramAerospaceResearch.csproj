@@ -66,7 +66,7 @@
       <HintPath>$(KSP_DIR_BUILD)\$(KSP_DATA_DIRNAME)\Managed\KSPAssets.dll</HintPath>
     </Reference>
     <Reference Include="KSPCommunityFixes">
-      <HintPath>$(KSP_DIR_BUILD)GameData\KSPCommunityFixes\Plugins\KSPCommunityFixes.dll</HintPath>
+      <HintPath>$(KSP_DIR_BUILD)\GameData\KSPCommunityFixes\Plugins\KSPCommunityFixes.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ModularFlightIntegrator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -75,11 +75,11 @@
     </Reference>
     <Reference Include="Scale_Redist, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\GameData\FerramAerospaceResearch\Plugins\Scale_Redist.dll</HintPath>
+      <HintPath>$(KSP_DIR_BUILD)\GameData\999_Scale_Redist.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="Unity.Mathematics">
-      <HintPath>C:\Zaidimai\KSP 1.12\GameData\000_KSPBurst\Plugins\Unity.Mathematics.dll</HintPath>
+      <HintPath>$(KSP_DIR_BUILD)\GameData\000_KSPBurst\Plugins\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
